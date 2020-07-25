@@ -4,19 +4,18 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: ShyRoute's space
 subtitle:
 description:
-author: John Doe
+author: ShyRoute
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ko
 date_format: '%Y-%m-%d'
-remote_theme : Simpleyyt/jekyll-theme-next
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: "https://shyroute.github.io"
-baseurl: ""
+url: 'https://shyroute.github.io'
+baseurl: '/'
 permalink: pretty
 
 # Pagination
@@ -63,7 +62,7 @@ defaults:
 
 # Atom feed
 feed:
-  path: atom.xml
+  path: rss.html
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
@@ -85,7 +84,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
 #since: 2015
@@ -116,14 +115,15 @@ index_with_subtitle: false
 # Menu Settings
 # ---------------------------------------------------------------
 
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/-> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  about: /about/
   archives: /archives/
+  #categories: /categories/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  categories: /navigator/
+  sitemap: /menual/
   #commonweal: /404.html
 
 
@@ -143,9 +143,6 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
-
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -234,7 +231,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: https://avatars3.githubusercontent.com/u/20872857?s=460&u=5f07ac108384e9a63e14269828aaa7a27fa84647&v=4
 
 
 # Table Of Contents in the Sidebar
@@ -363,8 +360,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -381,8 +378,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: ShyRoute
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -394,11 +391,11 @@ wildfire:
   # version - It's recommended to use the following versions.
   loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
   useDev: true
-  version: 0.5.6 
+  version: 0.5.6
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: 
+    apiKey:
     authDomain:
     databaseURL:
     projectId:
@@ -409,8 +406,8 @@ wildfire:
   # other configs
   theme: light # or dark
   locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL: 
-# Any question? 
+  defaultAvatarURL:
+# Any question?
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
 # </wildfire>
 
@@ -587,7 +584,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
