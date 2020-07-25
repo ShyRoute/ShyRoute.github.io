@@ -17,6 +17,7 @@ date_format: '%Y-%m-%d'
 url: 'https://shyroute.github.io'
 baseurl: '/'
 permalink: pretty
+repository: ShyRoute/ShyRoute.github.io
 
 # Pagination
 paginate: 10
