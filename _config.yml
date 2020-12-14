@@ -121,9 +121,8 @@ menu:
   home: /
   about: /about/
   archives: /archives/
-  #categories: /categories/
   tags: /tags/
-  categories: /navigator/
+  categories: /categories/
   sitemap: /menual/
   #commonweal: /404.html
 
