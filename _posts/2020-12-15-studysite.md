@@ -16,12 +16,15 @@ tags:
 * [[github] teddylee777 / machine-learning](https://github.com/teddylee777/machine-learning) - 로드맵
 
 ---
-### Modern C++
+### C++
 * [[github] utilForever / modern-cpp-tutorial](https://github.com/utilForever/modern-cpp-tutorial)  
 * [[github] AnthonyCalandra / modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features)  
+* [[github] changkun / modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial) - pdf  
+* [[github] rigtorp / awesome-modern-cpp](https://github.com/rigtorp/awesome-modern-cpp)  
 
 ---
 ### Problem Solving
+추후 chrome에 저장된 북마크 추가할 예정  
 
 ---
 ### General
