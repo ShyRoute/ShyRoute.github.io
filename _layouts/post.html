@@ -5,7 +5,9 @@ comments: true
   
 {% assign __ = site.data.languages[site.language] %}
 
-<li><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fshyroute.github.io{{ include.article.url | url_encode  }}" alt="Hits"></li>
+<div style="text-align: center;">
+	<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fshyroute.github.io{{ include.article.url | url_encode  }}" alt="Hits">
+</div>
 
 {% include post.html %}
 
