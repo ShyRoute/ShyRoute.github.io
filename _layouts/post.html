@@ -6,6 +6,12 @@ comments: true
 {% assign __ = site.data.languages[site.language] %}
 {% include post.html %}
 
+  <div style="text-align: center;">
+	<a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}/{{ page.url | remove_first: '/' | replace: '/', '-' }}" target="_blank">
+	  <img src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}/{{ page.url | remove_first: '/' | replace: '/', '-' }}.svg" />
+	</a>
+  </div> 
+
 {% if page.comments != false %}
 	{% include disqus_comments.html %}
 {% endif %}  
