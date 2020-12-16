@@ -2,7 +2,7 @@
 title: "댓글 기능 추가"
 date: 2020-09-18 11:17:00 AM
 categories:
-- free
+- update
 tags:
 ---
 
