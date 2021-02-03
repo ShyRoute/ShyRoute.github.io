@@ -11,6 +11,11 @@ comments: true
 
 {% include post.html %}
 
-{% if page.comments != false %}
-	{% include disqus_comments.html %}
-{% endif %}  
+<script src="https://utteranc.es/client.js"
+        repo="hahwul/asset-of-hahwul.com"
+        issue-term="pathname"
+        label="comments"
+        theme="dark-blue"
+        crossorigin="anonymous"
+        async>
+</script>
