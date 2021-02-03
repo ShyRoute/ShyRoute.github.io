@@ -6,8 +6,6 @@ categories:
 tags:
 ---
 
-### 이건 아니지
-
 블로그 댓글 기능(disqus)의 문제점을 말해본다.
 
 1. 구글 로그인 시 "CSRF verification failed (403)" 에러가 뜬다.  
