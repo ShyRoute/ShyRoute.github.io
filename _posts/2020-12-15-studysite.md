@@ -2,7 +2,7 @@
 title: "학습 자료 모음"
 date: 2020-12-15
 categories:
-- study
+- archive
 tags:
 ---
 
